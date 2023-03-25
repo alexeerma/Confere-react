@@ -15,8 +15,8 @@ import toooigus from "./Tööõigus.png";
 import tsiviil from "./tsiviil.png";
 import vaartused from "./vaartused.png";
 import volaoigus from "./Võlaõigus.png";
-
-
+import kersti from "./kersti.jpg";
+import lisette from "./lisette.jpeg";
 
 export {
     logo_black,
@@ -36,5 +36,7 @@ export {
     tsiviil,
     vaartused,
     volaoigus,
+    kersti,
+    lisette,
 
 };

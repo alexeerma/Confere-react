@@ -3,7 +3,7 @@ import { buroo } from '../assets';
 
 const Buro = () => ( 
   
-  <section>
+  <section className="bg-conferehele">
     <div>
       <h1 className='text-center text-primary font-displayfair font-semibold text-6xl pt-[100px] pb-[60px]'>Büroo</h1>
       <div className='flex text-justify justify-between py-[60px] mx-[120px]'>

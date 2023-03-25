@@ -3,7 +3,7 @@ import { asjaoigus, maksuoigus, arioigus, meditsiin, parimine, perekonnaoigus, p
 
 const Fields = () => ( 
 
-  <section>
+  <section className='bg-secondary'>
     <div>
       <h1 className="text-center text-primary text-6xl font-semibold font-displayfair pt-[50px]">Valdkonnad</h1>
     </div>
@@ -30,59 +30,59 @@ const Fields = () => (
     </div>
     <div className="flex flex-row-reverse justify-between py-[30px] mx-[130px]">
       <div>
-        <h2>Meditsiiniõigus. Tervishoiuteenused</h2>
-        <p>Meditsiiniõigus reguleerib tervishoiuteenuse osutaja ning patsientide õigusi ja kohustusi. Meie advokaadibüroo on nõustanud ja esindanud tervishoiuteenuse osutamisest tõusetunud vaidluste lahendamisel nii tervishoiuteenuse osutaja kui ka patsiendi poolel.</p>
+        <h2 className="text-black text-right font-nunito text-3xl font-md pb-[15px]">Meditsiiniõigus. Tervishoiuteenused</h2>
+        <p className="box-border text-justify w-[800px]">Meditsiiniõigus reguleerib tervishoiuteenuse osutaja ning patsientide õigusi ja kohustusi. Meie advokaadibüroo on nõustanud ja esindanud tervishoiuteenuse osutamisest tõusetunud vaidluste lahendamisel nii tervishoiuteenuse osutaja kui ka patsiendi poolel.</p>
       </div>
-      <img src={meditsiin} alt="" />
+      <img src={meditsiin} alt="" className="w-[200px] h-[200px] max-w-[208px]" />
     </div>
     <div className="flex justify-between pt-[100px] mx-[130px] pb-[50px]">
       <div>
-        <h2>Perekonnaõigus</h2>
-        <p>Perekonnaõigus reguleerib abikaasade omavahelisi suhteid, vanemate ja laste vahelisi suhteid, vanemate kohustusi laste ees, elatist jms. Sellepärast on perekonnaõigus delikaatseimaid ja emotsionaalselt keerukaimaid õigusvaldkondi. Meie advokaadibüroo nõustab ja esindab kliente kõikides perekonnaõiguslikes küsimustes, aitab koostada vajalikke õigusdokumente ning esindab kliente läbirääkimistel suhetes kolmandate isikutega ja kohtus.</p>
+        <h2 className="text-black font-nunito text-3xl font-md pb-[15px]">Perekonnaõigus</h2>
+        <p className="box-border text-justify w-[800px]">Perekonnaõigus reguleerib abikaasade omavahelisi suhteid, vanemate ja laste vahelisi suhteid, vanemate kohustusi laste ees, elatist jms. Sellepärast on perekonnaõigus delikaatseimaid ja emotsionaalselt keerukaimaid õigusvaldkondi. Meie advokaadibüroo nõustab ja esindab kliente kõikides perekonnaõiguslikes küsimustes, aitab koostada vajalikke õigusdokumente ning esindab kliente läbirääkimistel suhetes kolmandate isikutega ja kohtus.</p>
       </div>
-      <img src={perekonnaoigus} alt="" />
+      <img src={perekonnaoigus} alt=""  className="w-[200px] h-[200px] max-w-[208px]"/>
     </div>
     <div className="flex flex-row-reverse justify-between py-[30px] mx-[130px]">
       <div>
-        <h2>Pärimisõigus</h2>
-        <p>Pärimine on isiku surma korral tema vara üleminek teisele isikule. Testamendi ja pärimislepingu ning teised pärimisega seotud toiminuid tõestab notar, kuid me saame nõustada pärimistoimingute tegemisel. Nõustame ka pärandi vastuvõtmisel, pärandaja kohustuste kindlakstegemisel ja pärandi jagamisel ning aitame leida notari pärimistoimingute tegemiseks.</p>
+        <h2 className="text-black text-right font-nunito text-3xl font-md pb-[15px]">Pärimisõigus</h2>
+        <p className="box-border text-justify w-[800px]">Pärimine on isiku surma korral tema vara üleminek teisele isikule. Testamendi ja pärimislepingu ning teised pärimisega seotud toiminuid tõestab notar, kuid me saame nõustada pärimistoimingute tegemisel. Nõustame ka pärandi vastuvõtmisel, pärandaja kohustuste kindlakstegemisel ja pärandi jagamisel ning aitame leida notari pärimistoimingute tegemiseks.</p>
       </div>
-      <img src={parimine} alt="" />
+      <img src={parimine} alt="" className="w-[200px] h-[200px] max-w-[208px]" />
     </div>
     <div className="flex justify-between pt-[100px] mx-[130px] pb-[50px]">
       <div>
-        <h2>Täitemenetlus</h2>
-        <p>Täitedokumendid on nimetatud täitemenetluse seadustikus. Üldtuntumad on erinevad riigi- ja omavalitsusasutuste määratud trahviotsused, kohtute otsused ja määrused ning muud täitedokumendid. Aitame koostada täiteavaldust, nõustame ja esindame kõikides täitemenetlusega kaasnevate küsimuste lahendamisel.</p>
+        <h2 className="text-black font-nunito text-3xl font-md pb-[15px]">Täitemenetlus</h2>
+        <p className="box-border text-justify w-[800px]">Täitedokumendid on nimetatud täitemenetluse seadustikus. Üldtuntumad on erinevad riigi- ja omavalitsusasutuste määratud trahviotsused, kohtute otsused ja määrused ning muud täitedokumendid. Aitame koostada täiteavaldust, nõustame ja esindame kõikides täitemenetlusega kaasnevate küsimuste lahendamisel.</p>
       </div>
-      <img src={taitemenetlus} alt="" />
+      <img src={taitemenetlus} alt=""  className="w-[200px] h-[200px] max-w-[208px]"/>
     </div>
     <div className="flex flex-row-reverse justify-between py-[30px] mx-[130px]">
       <div>
-        <h2>Tööõigus</h2>
-        <p>Tööõigus on valdkond, mis määrab kindlaks töötajate ja tööandjate õigused ning kohustused töösuhtes. Nõustame ja esindame tööandjaid ja eraisikutest kliente töövaidluskomisjonis ja kohtus. Aitame koostada töölepinguid ja vaatame üle olemasolevad töölepingud ning töösuhtes vajalikud dokumendid ja anname nõu nende täiendamiseks.</p>
+        <h2 className="text-black text-right font-nunito text-3xl font-md pb-[15px]">Tööõigus</h2>
+        <p className="box-border text-justify w-[800px]">Tööõigus on valdkond, mis määrab kindlaks töötajate ja tööandjate õigused ning kohustused töösuhtes. Nõustame ja esindame tööandjaid ja eraisikutest kliente töövaidluskomisjonis ja kohtus. Aitame koostada töölepinguid ja vaatame üle olemasolevad töölepingud ning töösuhtes vajalikud dokumendid ja anname nõu nende täiendamiseks.</p>
       </div>
-      <img src={toooigus} alt="" />
+      <img src={toooigus} alt="" className="w-[200px] h-[200px] max-w-[208px]"/>
     </div>
     <div className="flex justify-between pt-[100px] mx-[130px] pb-[50px]">
       <div>
-        <h2>Võlaõigus</h2>
-        <p>Võlaõiguse esemeks on lepinguõigus ja lepinguvälised kohustused. Lepinguõiguses reguleeritakse lepingutel põhinevaid õigussuhteid osapoolte vahel. Lepinguvälised võlasuhted on võlasuhted, mis tekivad muul viisil, kui lepingust tulenevalt. Lepinguvälisteks kohustusteks on tasu avalik lubamine, käsundita asjaajamine, alusetu rikastumine, kahju õigusvastane tekitamine. Nõustame ja esindame lepingute täitmisel ning teistes võlasuhtes tekkivate probleemide lahendamisel. </p>
+        <h2 className="text-black font-nunito text-3xl font-md pb-[15px]">Võlaõigus</h2>
+        <p className="box-border text-justify w-[800px]">Võlaõiguse esemeks on lepinguõigus ja lepinguvälised kohustused. Lepinguõiguses reguleeritakse lepingutel põhinevaid õigussuhteid osapoolte vahel. Lepinguvälised võlasuhted on võlasuhted, mis tekivad muul viisil, kui lepingust tulenevalt. Lepinguvälisteks kohustusteks on tasu avalik lubamine, käsundita asjaajamine, alusetu rikastumine, kahju õigusvastane tekitamine. Nõustame ja esindame lepingute täitmisel ning teistes võlasuhtes tekkivate probleemide lahendamisel. </p>
       </div>
-      <img src={volaoigus} alt="" />
+      <img src={volaoigus} alt="" className="w-[200px] h-[200px] max-w-[208px]" />
     </div>
     <div className="flex flex-row-reverse justify-between py-[30px] mx-[130px]">
       <div>
-        <h2>Äriõigus</h2>
-        <p>Osaühing, aktsiaselt, täisühing, usaldusühing, tulundusühistu – on eraõigluslik isikute ühendus, mis luuakse mingi eesmärgi saavutamiseks. Nõustame ja aitame lahendada äriühingu igapäevase majandustegevuse raames tekkivate küsimuste lahendamisel. Esindame äriühingute asutamise, seadusest tulenevate muudatuste tegemisel äriühingu dokumentatsioonis ja muudatuste kandmisel äriregistrisse.</p>
+        <h2 className="text-black text-right font-nunito text-3xl font-md pb-[15px]">Äriõigus</h2>
+        <p className="box-border text-justify w-[800px]">Osaühing, aktsiaselt, täisühing, usaldusühing, tulundusühistu – on eraõigluslik isikute ühendus, mis luuakse mingi eesmärgi saavutamiseks. Nõustame ja aitame lahendada äriühingu igapäevase majandustegevuse raames tekkivate küsimuste lahendamisel. Esindame äriühingute asutamise, seadusest tulenevate muudatuste tegemisel äriühingu dokumentatsioonis ja muudatuste kandmisel äriregistrisse.</p>
       </div>
-      <img src={arioigus} alt="" />
+      <img src={arioigus} alt="" className="w-[200px] h-[200px] max-w-[208px]"/>
     </div>
     <div className="flex justify-between pt-[100px] mx-[130px] pb-[50px]">
       <div>
-        <h2>Vaidluste lahendamine. Haldus- ja tsiviilkohtumenetlused</h2>
-        <p>Vaidluste lahendamine erinevate valdkondade haldus- ja tsiviilasjades moodustab olulise osa meie advokaadibüroo tegevustest. Enam kui 25 aastat osalemist kohtuvaidlustes haldus- ja eraõiguse valdkonna erinevates asjades on meile andnud hindamatu kogemuse parima lahenduse leidmiseks kliendi huvide kaitsel. Samas, saame oma kogemuste pinnalt väita, et vaidlevate poolte huvid saavad kõige optimaalsemal viisil tagatud läbirääkimiste tulemusena ja kohtumenetlust ei olegi vaja.</p>
+        <h2 className="text-black font-nunito text-3xl font-md pb-[15px]">Vaidluste lahendamine. Haldus- ja tsiviilkohtumenetlused</h2>
+        <p className="box-border text-justify w-[800px]">Vaidluste lahendamine erinevate valdkondade haldus- ja tsiviilasjades moodustab olulise osa meie advokaadibüroo tegevustest. Enam kui 25 aastat osalemist kohtuvaidlustes haldus- ja eraõiguse valdkonna erinevates asjades on meile andnud hindamatu kogemuse parima lahenduse leidmiseks kliendi huvide kaitsel. Samas, saame oma kogemuste pinnalt väita, et vaidlevate poolte huvid saavad kõige optimaalsemal viisil tagatud läbirääkimiste tulemusena ja kohtumenetlust ei olegi vaja.</p>
       </div>
-      <img src={tsiviil} alt="" />
+      <img src={tsiviil} alt="" className="w-[200px] h-[200px] max-w-[208px]"/>
     </div>
 
   </section>
