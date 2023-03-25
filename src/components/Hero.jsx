@@ -6,8 +6,8 @@ const Hero = () => (
       <div className="w-1/2">""</div>
       <div className="py-50">
         <img src={logo} alt="Confere" className="w-[300px] h-[50px]" />
-        <h1 className="text-white">Advokaadibüroo</h1>
-        <p className="text-white">"Üheksa kümnendikku tarkusest seisneb selles, et olla tark õigel ajal." - T.Roosevelt, Ameerika Ühendriikide 26. president</p>
+        <h1 className="text-white font-displayfair">Advokaadibüroo</h1>
+        <p className="text-white font-nunito">"Üheksa kümnendikku tarkusest seisneb selles, et olla tark õigel ajal." - T.Roosevelt, Ameerika Ühendriikide 26. president</p>
         <Button />
       </div>
   </section>
