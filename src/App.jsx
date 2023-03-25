@@ -1,16 +1,21 @@
 import React from 'react'
-import { Nav, Hero, Buro, Fields, People, Goals } from "./components";
-const App = () => (
-  <div>
+import { BrowserRouter } from "react-router-dom";
+import { Nav, Hero, Buro, Fields, People, Goals, Contact } from "./components";
+const App = () => {
+  return (
+<BrowserRouter>
+  <div>  
     <Nav />
     <Hero />
     <Buro />
     <Fields />
     <People />
     <Goals />
+    <Contact />
   </div>
+  </BrowserRouter>
   );
-
+}
 
 
 

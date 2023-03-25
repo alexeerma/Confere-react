@@ -1,5 +1,6 @@
 import React from 'react'
 import { buroo } from '../assets';
+import { SectionWrapper } from "../hoc";
 
 const Buro = () => ( 
   
@@ -21,4 +22,4 @@ const Buro = () => (
 );
 
 
-export default Buro
+export default  SectionWrapper(Buro, "buro");

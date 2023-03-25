@@ -4,11 +4,15 @@ export const navLinks = [
       title: "Esileht",
     },
     {
-      id: "buro",
+      id:"buro",
+      title: "Büroo",
+    },
+    {
+      id: "fields",
       title: "Valdkonnad",
     },
     {
-      id: "meist",
+      id: "people",
       title: "Meist",
     },
     {

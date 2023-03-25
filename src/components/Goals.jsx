@@ -1,5 +1,6 @@
 import React from 'react'
 import {vaartused} from "../assets";
+import { SectionWrapper } from "../hoc";
 
 const Goals = () => (
   
@@ -19,4 +20,4 @@ const Goals = () => (
     
 );
 
-export default Goals
+export default SectionWrapper(Goals, "goals");

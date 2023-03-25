@@ -1,5 +1,6 @@
 import React from 'react'
 import {kersti, lisette} from "../assets";
+import { SectionWrapper } from "../hoc";
 
 
 const People = () => (
@@ -55,4 +56,4 @@ const People = () => (
 );
 
 
-export default People
+export default SectionWrapper(People, "people");

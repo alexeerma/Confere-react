@@ -1,5 +1,6 @@
 import React from 'react'
 import { asjaoigus, maksuoigus, arioigus, meditsiin, parimine, perekonnaoigus, piggy, taitemenetlus, toooigus, tsiviil, volaoigus } from "../assets";
+import { SectionWrapper } from "../hoc";
 
 const Fields = () => ( 
 
@@ -90,4 +91,4 @@ const Fields = () => (
 );
 
 
-export default Fields
+export default SectionWrapper(Fields, "fields");
