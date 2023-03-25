@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { SectionWrapper } from "../hoc";
+import {logo_black} from "../assets";
 
 
 
@@ -34,9 +35,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Conferelaw",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "aleksander.eerma@hotmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -62,7 +63,56 @@ const Contact = () => {
   };
 
     return (
-      <div>Contact</div>
+      <section className="bg-conferehele px-[150px] pb-[100px]">
+        <div className='mb-6'>
+          <h1 className="text-center pt-[80px] pb-[50px] font-displayfair text-primary font-bold text-5xl">Kontakt</h1>
+        </div>
+        <div className="flex justify-around">
+          <form
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className='mt-9 flex flex-col gap-8'>
+            <input
+              type='text'
+              name='name'
+              value={form.name}
+              onChange={handleChange}
+              placeholder="Ees- ja perekonnanimi"
+              className='bg-primary py-4 px-6 placeholder:text-black text-black font-nunito rounded-lg outline-none border-none font-medium'
+            />
+            <input
+              type='email'
+              name='email'
+              value={form.email}
+              onChange={handleChange}
+              placeholder="E-mail"
+              className='bg-primary py-4 px-6 placeholder:text-black text-black font-nunito rounded-lg outline-none border-none font-medium'
+            />
+            <textarea
+              rows={7}
+              name='message'
+              value={form.message}
+              onChange={handleChange}
+              placeholder='Teade'
+              className='bg-primary py-4 px-6 placeholder:text-black text-black font-nunito rounded-lg outline-none border-none font-medium'
+            />
+            <button
+            type='submit'
+            className='bg-primary py-3 px-8 rounded-xl outline-none w-fit text-black font-nunito shadow-md shadow-primary'
+          >
+            {loading ? "Sending..." : "Send"}
+          </button>
+          </form>
+          <div className='mt-9'>
+            <img src={logo_black} alt="" className="max-w-[300px] "/>
+            <h4 className="text-primary text-3xl font-nunito pb-[80px]">Advokaadibüroo</h4>
+            <p className='text-center'>Aadress: Tartu mnt 83, Tallinn, 10115, Eesti</p>
+            <p className='text-center'>Telefon: +372 6740433</p>
+            <p className='text-center'>Email: info@conferelaw.ee</p>
+          </div>
+        </div>
+      </section>
+
     )
   }
 
