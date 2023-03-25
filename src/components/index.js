@@ -6,6 +6,7 @@ import Goals from './Goals';
 import Contact from './Contact';
 import People from './People';
 import Footer from './Footer';
+import Button from './Button';
 
 export {
     Nav, 
@@ -16,4 +17,5 @@ export {
     Contact,
     People,
     Footer,
+    Button,
 };

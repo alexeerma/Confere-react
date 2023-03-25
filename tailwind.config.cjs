@@ -17,7 +17,7 @@ module.exports = {
         nunito: ["Nunito Sans", "sans-serif"],
       },
       backgroundImage: {
-        "hero-bg": "url('/src/assets/avaleht.png')",
+        "hero-pattern": "url('/src/assets/avaleht.png')",
       },
     },
     screens: {
