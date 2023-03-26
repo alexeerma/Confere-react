@@ -16,9 +16,6 @@ module.exports = {
         displayfair: ["Playfair Display", "serif"],
         nunito: ["Nunito Sans", "sans-serif"],
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/avaleht.png')",
-      },
     },
     screens: {
       xs: "480px",
@@ -27,6 +24,9 @@ module.exports = {
       md: "1060px",
       lg: "1200px",
       xl: "1700px",
+    },
+    backgroundImage: {
+      "hero-pattern": "url('/src/assets/avaleht.png')",
     },
   },
   plugins: [],

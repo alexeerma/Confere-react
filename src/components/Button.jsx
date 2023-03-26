@@ -1,4 +1,5 @@
 import React from 'react'
+import { SectionWrapper } from '../hoc';
 
 const Button = () => (
 

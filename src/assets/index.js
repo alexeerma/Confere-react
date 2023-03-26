@@ -17,6 +17,7 @@ import vaartused from "./vaartused.png";
 import volaoigus from "./Võlaõigus.png";
 import kersti from "./kersti.jpg";
 import lisette from "./lisette.jpeg";
+import avaleht from "./avaleht.png";
 
 export {
     logo_black,
@@ -38,5 +39,6 @@ export {
     volaoigus,
     kersti,
     lisette,
+    avaleht,
 
 };
