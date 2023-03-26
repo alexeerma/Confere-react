@@ -8,6 +8,7 @@ module.exports = {
         primary: "#A9824A",
         secondary: "#EDE8E5",
         conferehele: "#E7DCCD",
+        navtrans: "rgba(169, 130, 74, 0.7)",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
