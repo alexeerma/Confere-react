@@ -7,6 +7,7 @@ import Contact from './Contact';
 import People from './People';
 import Footer from './Footer';
 import Button from './Button';
+import Simple from './Simple';
 
 export {
     Nav, 
@@ -18,4 +19,5 @@ export {
     People,
     Footer,
     Button,
+    Simple, 
 };
