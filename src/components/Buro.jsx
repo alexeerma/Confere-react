@@ -7,9 +7,9 @@ const Buro = () => (
   <section className="bg-conferehele">
     <div>
       <h1 className='text-center text-primary font-displayfair font-semibold text-6xl pt-[100px] pb-[60px]'>Büroo</h1>
-      <div className='prodcution  md:flex items-center flex flex-col-reverse md:flex-row  px-5 md:px-0 py-20 md:py-10 gap-10 max-w-[75rem] mx-auto'>
+      <div className='md:justify-center items-center flex flex-col-reverse md:flex-row  px-5 py-20 md:py-10 gap-10 w-screen mx-auto'>
         <div className='w-[550px]'>
-          <p className="font-nunito">Confere Advokaadibüroo OÜ asutajaks on vandeadvokaat Kersti Kägi, kes advokaadina on tegutsenud üle 25 aasta. Meie tugevuseks on pikaajaline õigusnõustamise ja kohtumenetlustes esindamise kogemus enamikes õigusvaldkondades. Meie hindame professionaalsust, põhjalikkust, kvaliteeti, ratsionaalsust ja juhindume oma töös nendest väärtustest. Vajadusel teeme koostööd erinevate teiste elualade spetsialistidega ja kolleegidega teistest advokaadibüroodest.</p>
+          <p className="font-nunito mx-[40px]">Confere Advokaadibüroo OÜ asutajaks on vandeadvokaat Kersti Kägi, kes advokaadina on tegutsenud üle 25 aasta. Meie tugevuseks on pikaajaline õigusnõustamise ja kohtumenetlustes esindamise kogemus enamikes õigusvaldkondades. Meie hindame professionaalsust, põhjalikkust, kvaliteeti, ratsionaalsust ja juhindume oma töös nendest väärtustest. Vajadusel teeme koostööd erinevate teiste elualade spetsialistidega ja kolleegidega teistest advokaadibüroodest.</p>
         </div>
         <div className=''>
           <img src={buroo} alt="Büroo" />
