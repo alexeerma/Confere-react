@@ -8,12 +8,12 @@ const Fields = () => (
     <div>
       <h1 className="text-center text-primary text-6xl font-semibold font-displayfair pt-[50px]">Valdkonnad</h1>
     </div>
-    <div className="mx-[30px] md:flex justify-between pt-[100px] md:mx-[130px] pb-[50px] ">
+    <div className="mx-[30px] md:flex justify-between items-center pt-[100px] md:mx-[130px] pb-[50px] ">
       <div className=''>
         <h2 className="text-black text-center font-nunito text-3xl font-md pb-[15px] md:text-left">Asjaõigus</h2>
         <p className="box-border text-center text-justify md:w-[800px] pb-[30px]">Asjaõigused on omand omandiõigus ja piiratud asjaõigused: servituudid, reaalkoormatised, hoonestusõigus, ostueesõigus ja pandiõigus. Nõustame erinevates asjaõiguslikes küsimustes, aitame koostada vajalikke õigusdokumente ja esindame kinnisasjadega seotud vaidlustes.</p>
       </div>
-      <img src={asjaoigus} alt="" className="w-[200px] h-[200px] max-w-[208px] justify-center" />
+      <img src={asjaoigus} alt="" className="w-[200px] h-[200px] max-w-[208px]" />
     </div>
     <div className="mx-[30px] md:flex flex-row-reverse justify-between py-[30px] md:mx-[130px]">
       <div>
