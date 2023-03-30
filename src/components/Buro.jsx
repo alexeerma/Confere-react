@@ -8,7 +8,7 @@ const Buro = () => (
     <div>
       <h1 className='text-center text-primary font-displayfair font-semibold text-6xl pt-[100px] pb-[30px]'>Büroo</h1>
       <div className='md:flex flex-col-reverse md:flex-row px-10 py-20 md:py-10 justify-around w-screen mx-auto'>
-        <div className='w-auto'>
+        <div className='w-auto md:w-1/2'>
           <p className="font-nunito mx-auto text-justify pb-5">Confere Advokaadibüroo OÜ asutajaks on vandeadvokaat Kersti Kägi, kes advokaadina on tegutsenud üle 25 aasta. Meie tugevuseks on pikaajaline õigusnõustamise ja kohtumenetlustes esindamise kogemus enamikes õigusvaldkondades. Meie hindame professionaalsust, põhjalikkust, kvaliteeti, ratsionaalsust ja juhindume oma töös nendest väärtustest. Vajadusel teeme koostööd erinevate teiste elualade spetsialistidega ja kolleegidega teistest advokaadibüroodest.</p>
         </div>
         <div className=''>

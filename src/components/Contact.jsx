@@ -103,8 +103,8 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
           </form>
-          <div className='mt-9 flex-col justify-center items-center pt-10'>
-            <img src={logo_black} alt="" className="md:max-w-[300px] "/>
+          <div className='mt-9 flex-col justify-center items-center pt-10 md:max-w-[500px]'>
+            <img src={logo_black} alt="" className="max-w-1/2"/>
             <h4 className="text-primary uppercase text-center text-3xl font-nunito pb-[30px]">Advokaadibüroo</h4>
             <p className='text-center'>Aadress: Tartu mnt 83, Tallinn, 10115, Eesti</p>
             <p className='text-center'>Telefon: +372 6740433</p>
